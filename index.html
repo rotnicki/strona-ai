@@ -27,6 +27,26 @@
             padding: 20px;
         }
 
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        th {
+            background-color: #222;
+            color: #fff;
+        }
+
         footer {
             background-color: #333;
             padding: 10px;
@@ -40,13 +60,64 @@
     </header>
 
     <main>
-        <p>To jest zawartość mojej strony.</p>
-        <p>Moi ulubieni autorzy:</p>
-        <ul>
-            <li>Stephen King</li>
-            <li>J.K. Rowling</li>
-            <li>George Orwell</li>
-        </ul>
+        <h2>Tabela z danymi</h2>
+        <table>
+            <tr>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Płeć</th>
+            </tr>
+            <tr>
+                <td>Jan</td>
+                <td>Kowalski</td>
+                <td>Mężczyzna</td>
+            </tr>
+            <tr>
+                <td>Anna</td>
+                <td>Nowak</td>
+                <td>Kobieta</td>
+            </tr>
+            <tr>
+                <td>Marcin</td>
+                <td>Wiśniewski</td>
+                <td>Mężczyzna</td>
+            </tr>
+            <tr>
+                <td>Katarzyna</td>
+                <td>Kowalczyk</td>
+                <td>Kobieta</td>
+            </tr>
+            <tr>
+                <td>Piotr</td>
+                <td>Jankowski</td>
+                <td>Mężczyzna</td>
+            </tr>
+            <tr>
+                <td>Marta</td>
+                <td>Wójcik</td>
+                <td>Kobieta</td>
+            </tr>
+            <tr>
+                <td>Andrzej</td>
+                <td>Kamiński</td>
+                <td>Mężczyzna</td>
+            </tr>
+            <tr>
+                <td>Ewa</td>
+                <td>Lewandowska</td>
+                <td>Kobieta</td>
+            </tr>
+            <tr>
+                <td>Tomasz</td>
+                <td>Nowicki</td>
+                <td>Mężczyzna</td>
+            </tr>
+            <tr>
+                <td>Magdalena</td>
+                <td>Dąbrowska</td>
+                <td>Kobieta</td>
+            </tr>
+        </table>
     </main>
 
     <footer>
